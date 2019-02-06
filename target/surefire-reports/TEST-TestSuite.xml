@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="78.668" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nbatchu2\workspace\webdrivertest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nbatchu2\workspace\webdrivertest"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nbatchu2\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\nbatchu2\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3901913718032179516.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\nbatchu2\Desktop\softwares\installers\apache-maven-3.6.0\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Program Files\TortoiseGit\bin;C:\Users\nbatchu2\Desktop\softwares\apache-ant-1.10.5\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\Users\nbatchu2\Desktop\softwares\apache-tomcat-8.5.35\bin;C:\Users\nbatchu2\Desktop\softwares\jboss-as-7.1.1.Final\bin;C:\Users\nbatchu2\Desktop\softwares\sonar-scanner-3.3.0.1492-windows\bin;C:\Users\nbatchu2\AppData\Local\Microsoft\WindowsApps;C:\Users\nbatchu2\AppData\Roaming\npm;C:\Users\nbatchu2\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nbatchu2\Desktop\softwares\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nbatchu2"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nbatchu2"/>
+    <property name="java.class.path" value="C:\Users\nbatchu2\Desktop\softwares\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\nbatchu2\workspace\webdrivertest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="example.NewTest" name="beforeTest" time="78.663">
+    <failure message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.10&quot;,&quot;st&quot;:1521164188000},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1521164188000},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1521164188000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;52.7.2&quot;,&quot;st&quot;:1521164188000}}}
+1549435308680	addons.xpi	DEBUG	No changes found
+1549435308698	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308702	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308714	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1549435308716	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308718	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308726	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+1549435308728	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308730	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308740	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1549435308754	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\nbatchu2\AppData\Local\Temp\anonymous7125868139755349304webdriver-profile\extensions.json
+1549435308756	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308760	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308766	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1549435308770	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1549435308770	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1549435308770	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1549435308774	addons.manager	DEBUG	Starting provider: GMPProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1549435309040	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1549435309040	addons.manager	DEBUG	Starting provider: PluginProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1549435309042	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1549435309044	addons.manager	DEBUG	Completed startup sequence
+1549435309912	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1549435309912	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1549435309916	addons.xpi-utils	DEBUG	Successfully read XPI database
+1549435309940	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1549435310256	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DXCINDAI694630&apos;, ip: &apos;172.25.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.10&quot;,&quot;st&quot;:1521164188000},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1521164188000},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1521164188000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;52.7.2&quot;,&quot;st&quot;:1521164188000}}}
+1549435308680	addons.xpi	DEBUG	No changes found
+1549435308698	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308702	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308714	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1549435308716	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308718	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308726	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+1549435308728	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308730	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308740	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1549435308754	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\nbatchu2\AppData\Local\Temp\anonymous7125868139755349304webdriver-profile\extensions.json
+1549435308756	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308760	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308766	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1549435308770	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1549435308770	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1549435308770	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1549435308774	addons.manager	DEBUG	Starting provider: GMPProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1549435309040	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1549435309040	addons.manager	DEBUG	Starting provider: PluginProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1549435309042	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1549435309044	addons.manager	DEBUG	Completed startup sequence
+1549435309912	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1549435309912	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1549435309916	addons.xpi-utils	DEBUG	Successfully read XPI database
+1549435309940	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1549435310256	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;DXCINDAI694630&apos;, ip: &apos;172.25.48.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at example.NewTest.beforeTest(NewTest.java:23)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.10&quot;,&quot;st&quot;:1521164188000},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1521164188000},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1521164188000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;52.7.2&quot;,&quot;st&quot;:1521164188000}}}
+1549435308680	addons.xpi	DEBUG	No changes found
+1549435308698	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308702	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308714	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1549435308716	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308718	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308726	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+1549435308728	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308730	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308740	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1549435308754	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\nbatchu2\AppData\Local\Temp\anonymous7125868139755349304webdriver-profile\extensions.json
+1549435308756	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308760	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308766	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1549435308770	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1549435308770	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1549435308770	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1549435308774	addons.manager	DEBUG	Starting provider: GMPProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1549435309040	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1549435309040	addons.manager	DEBUG	Starting provider: PluginProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1549435309042	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1549435309044	addons.manager	DEBUG	Completed startup sequence
+1549435309912	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1549435309912	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1549435309916	addons.xpi-utils	DEBUG	Successfully read XPI database
+1549435309940	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1549435310256	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 38 more
+</failure>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.10&quot;,&quot;st&quot;:1521164188000},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1521164188000},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1521164188000}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;52.7.2&quot;,&quot;st&quot;:1521164188000}}}
+1549435308680	addons.xpi	DEBUG	No changes found
+1549435308698	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308702	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1549435308714	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1549435308716	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308718	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1549435308726	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+1549435308728	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308730	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1549435308740	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1549435308754	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\nbatchu2\AppData\Local\Temp\anonymous7125868139755349304webdriver-profile\extensions.json
+1549435308756	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308760	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1549435308766	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1549435308770	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1549435308770	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1549435308770	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1549435308772	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1549435308774	addons.manager	DEBUG	Starting provider: GMPProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1549435309040	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1549435309040	addons.manager	DEBUG	Starting provider: PluginProvider
+1549435309040	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1549435309042	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1549435309044	addons.manager	DEBUG	Completed startup sequence
+1549435309912	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1549435309912	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1549435309916	addons.xpi-utils	DEBUG	Successfully read XPI database
+1549435309940	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1549435309942	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1549435310256	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1549435310256	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at example.NewTest.beforeTest(NewTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Feb 06, 2019 12:12:34 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@437da279
+</system-err>
+  </testcase>
+  <testcase classname="example.NewTest" name="testEasy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="example.NewTest" name="afterTest" time="0.005">
+    <skipped/>
+  </testcase>
+</testsuite>
